@@ -1,4 +1,4 @@
-import React, { useEffect} from 'react';
+import React, { useEffect } from 'react';
 import Screen from './app/components/Screen';
 import * as ImagePicker from "expo-image-picker"
 import { Text } from 'react-native';
@@ -12,7 +12,8 @@ import ViewImageScreen from './app/screens/ViewImageScreen';
 const Drawer = createDrawerNavigator();
 export default function App(props) {
 
-    <NavigationContainer>
+
+  <NavigationContainer>
     <Drawer.Navigator initialRouteName="AccountScreen">
       <Drawer.Screen name="Account" component={AccountScreen} />
       <Drawer.Screen name="Listing Detail" component={ListingDetailScreen} />
